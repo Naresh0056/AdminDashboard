@@ -1,0 +1,12 @@
+@import "../../../assets/sass/abstracts/variables";
+
+.border-bottom {
+  border-bottom: $boder-bottom;
+}
+.sidebar-link {
+  transition: all 0.4s;
+  &:hover {
+    background-color: #f2aa4c;
+    border-radius: 5px;
+  }
+}
