@@ -66,4 +66,5 @@ export class LoginComponent implements OnInit {
   public loadData() {
     this.registrationForm.setValue(this.jsonData);
   }
+  ngAfterViewInit() {}
 }
